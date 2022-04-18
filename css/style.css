@@ -30,6 +30,14 @@ a {
 .container {
   margin: 0 0 0 15px;
   position: relative; }
+  .container.show .background {
+    transform: none;
+    opacity: 1; }
+  .container.show .animation {
+    animation: bounce 1500ms linear .6s both; }
+  .container.show .card {
+    transform: none;
+    opacity: 1; }
 
 .background {
   height: 24%;
@@ -42,15 +50,10 @@ a {
   transform: translate(120px);
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease; }
-  .background.show {
-    transform: none;
-    opacity: 1; }
 
 .animation {
   opacity: 0;
   transition: opacity .5s ease; }
-  .animation.show {
-    animation: bounce 1500ms linear .6s both; }
   .animation img:nth-child(1) {
     width: 100px;
     position: absolute;
@@ -131,9 +134,6 @@ a {
   opacity: 0;
   transform: translateY(100px);
   transition: transform 1s ease .8s, opacity 1s ease .8s; }
-  .card.show {
-    transform: none;
-    opacity: 1; }
   @media (min-width: 768px) {
     .card {
       width: 33.3333%;
