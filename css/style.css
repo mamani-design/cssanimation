@@ -19,9 +19,7 @@ a {
   justify-content: center;
   align-items: center; }
   .firstview p {
-    font-size: 2.4rem;
-color:#FF9FB7;
-}
+    font-size: 2.4rem; }
 
 .wrapper {
   padding-top: 160px;
@@ -50,8 +48,7 @@ color:#FF9FB7;
   opacity: 0;
   transition: opacity .5s ease; }
   .animation.show {
-    animation: bounce 1500ms linear both;
-    opacity: 1; }
+    animation: bounce 1500ms linear 1s both; }
   .animation img:nth-child(1) {
     width: 100px;
     position: absolute;
@@ -214,7 +211,8 @@ color:#FF9FB7;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.024, 0, 1); }
   100% {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    opacity: 1; } }
 @keyframes fuwafuwa {
   0% {
     transform: translate(0, 0) rotate(-7deg); }
