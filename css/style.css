@@ -20,6 +20,8 @@ a {
   align-items: center; }
   .firstview p {
     font-size: 2.4rem; }
+    .firstview p span {
+      color: #FF9FB7; }
 
 .wrapper {
   padding-top: 160px;
@@ -48,7 +50,7 @@ a {
   opacity: 0;
   transition: opacity .5s ease; }
   .animation.show {
-    animation: bounce 1500ms linear 1s both; }
+    animation: bounce 1500ms linear .6s both; }
   .animation img:nth-child(1) {
     width: 100px;
     position: absolute;
@@ -128,7 +130,7 @@ a {
   width: 100%;
   opacity: 0;
   transform: translateY(50px);
-  transition: transform .5s ease, opacity .5s ease; }
+  transition: transform .5s ease .8s, opacity .5s ease .8s; }
   .card.show {
     transform: none;
     opacity: 1; }
