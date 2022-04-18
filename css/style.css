@@ -130,7 +130,7 @@ a {
   width: 100%;
   opacity: 0;
   transform: translateY(50px);
-  transition: transform .5s ease .8s, opacity .5s ease .8s; }
+  transition: transform 1s ease .8s, opacity 1s ease .8s; }
   .card.show {
     transform: none;
     opacity: 1; }
