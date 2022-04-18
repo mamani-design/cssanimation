@@ -129,7 +129,7 @@ a {
   margin-bottom: 10px;
   width: 100%;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(100px);
   transition: transform 1s ease .8s, opacity 1s ease .8s; }
   .card.show {
     transform: none;
