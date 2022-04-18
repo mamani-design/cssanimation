@@ -19,7 +19,9 @@ a {
   justify-content: center;
   align-items: center; }
   .firstview p {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+color:#FF9FB7;
+}
 
 .wrapper {
   padding-top: 160px;
