@@ -5,6 +5,16 @@ html, body {
   font-weight: bold;
   line-height: 1.5; }
 
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+ 
+html {
+  height: -webkit-fill-available;
+}
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
